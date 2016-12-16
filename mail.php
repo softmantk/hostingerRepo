@@ -10,6 +10,6 @@ if(isset($_POST['submit'])){
     $message = "Name: ".$name." \n"."Company :".$company."\n"." wrote the following:"."\n\n".$message;
     $headers = "From:" . $from;
     mail($to,$subject,$message,$headers);
-    echo "Mail Sent. Thank you " . $_POST['name'] . ", we will contact you shortly.!!!!";
+    echo "!!!!!!!!!!!!!!!Mail Senthbh. Thank you " . $_POST['name'] . ", we will contact you shortly.!!!!";
     }
 ?>
